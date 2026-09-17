@@ -3,123 +3,79 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
+
 const perguntas = [
     {
-        enunciado: "O acúmulo desordenado de lixo plástico nos oceanos e solos ameaça a biodiversidade e contamina a cadeia alimentar. Como podemos reduzir esse impacto no dia a dia?",
+        enunciado: "A produção de lixo é um dos principais problemas ambientais da atualidade. Qual atitude pode ajudar a diminuir a quantidade de resíduos produzidos no dia a dia?",
         alternativas: [
             {
-                texto: "Priorizando o uso de materiais reutilizáveis, reduzindo o consumo de plásticos descartáveis e apoiando a economia circular.",
-                afirmacao: "Você é uma pessoa consciente das suas escolhas diárias e busca atitudes práticas para diminuir a sua pegada ecológica."
+                texto: "Reduzir o consumo de produtos descartáveis e reutilizar materiais sempre que possível.",
+                afirmacao: "Você é uma pessoa consciente e procura adotar hábitos que ajudam a reduzir os impactos no meio ambiente.",
+                "Você demonstra consciência ambiental e busca incorporar atitudes sustentáveis ao seu cotidiano para contribuir com a preservação do planeta."
             },
             {
-                texto: "Participando e incentivando campanhas locais de reciclagem e mutirões de limpeza em praças e praias.",
-                afirmacao: "Você é uma pessoa engajada na comunidade e acredita no poder da ação coletiva para transformar o ambiente."
-            }
-        ]const perguntas = [
-    {
-        enunciado: "O acúmulo desordenado de lixo plástico nos oceanos e solos ameaça a biodiversidade e contamina a cadeia alimentar. Como podemos reduzir esse impacto no dia a dia?",
-        alternativas: [
-            {
-                texto: "Priorizando o uso de materiais reutilizáveis, reduzindo o consumo de plásticos descartáveis e apoiando a economia circular.",
-                afirmacao: "Você é uma pessoa consciente das suas escolhas diárias e busca atitudes práticas para diminuir a sua pegada ecológica."
-            },
-            {
-                texto: "Participando e incentivando campanhas locais de reciclagem e mutirões de limpeza em praças e praias.",
-                afirmacao: "Você é uma pessoa engajada na comunidade e acredita no poder da ação coletiva para transformar o ambiente."
+                texto: "Separar corretamente os resíduos para facilitar a reciclagem e o reaproveitamento dos materiais.",
+                afirmacao: "Você demonstra responsabilidade ambiental e se preocupa com o destino correto dos resíduos.",
+                "Você age de forma consciente em relação ao meio ambiente e se preocupa em dar o destino adequado ao lixo e aos materiais descartados."
             }
         ]
     },
     {
-        enunciado: "O desmatamento acelerado afeta diretamente o clima global, a qualidade do ar e a disponibilidade de água potável. Qual é a melhor abordagem para conter a perda das nossas florestas?",
+        enunciado: "A água é um recurso essencial para a vida e precisa ser preservada. Qual atitude contribui para evitar o desperdício de água?",
         alternativas: [
             {
-                texto: "Investir em fiscalizaçãconst perguntas = [
-    {
-        enunciado: "O acúmulo desordenado de lixo plástico nos oceanos e solos ameaça a biodiversidade e contamina a cadeia alimentar. Como podemos reduzir esse impacto no dia a dia?",
-        alternativas: [
-            {
-                texto: "Priorizando o uso de materiais reutilizáveis, reduzindo o consumo de plásticos descartáveis e apoiando a economia circular.",
-                afirmacao: "Você é uma pessoa consciente das suas escolhas diárias e busca atitudes práticas para diminuir a sua pegada ecológica."
+                texto: "Fechar a torneira enquanto escova os dentes e reduzir o tempo dos banhos.",
+                afirmacao: "Você demonstra consciência sobre a importância de preservar os recursos naturais e evitar desperdícios.",
+                "Você reconhece a importância de cuidar dos recursos naturais e procura adotar atitudes que evitem o desperdício."
             },
             {
-                texto: "Participando e incentivando campanhas locais de reciclagem e mutirões de limpeza em praças e praias.",
-                afirmacao: "Você é uma pessoa engajada na comunidade e acredita no poder da ação coletiva para transformar o ambiente."
+                texto: "Reutilizar a água sempre que possível, como a água da chuva para regar plantas e limpar áreas externas.",
+                afirmacao: "Você é uma pessoa criativa e sustentável, buscando maneiras práticas de preservar os recursos naturais."
             }
         ]
     },
     {
-        enunciado: "O desmatamento acelerado afeta diretamente o clima global, a qualidade do ar e a disponibilidade de água potável. Qual é a melhor abordagem para conter a perda das nossas florestas?",
+        enunciado: "O desmatamento provoca diversos impactos ambientais, como a perda de biodiversidade e a destruição de habitats. O que podemos fazer para contribuir com a preservação das florestas?",
         alternativas: [
             {
-                texto: "Investir em fiscalização rigorosa, tecnologia de monitoramento via satélite e reflorestamento de áreas degradadas.",
-                afirmacao: "Você tem um perfil analítico e estratégico, valorizando soluções científicas e a aplicação firme de medidas de proteção."
+                texto: "Evitar produtos que incentivem o desmatamento e apoiar iniciativas de preservação ambiental.",
+                afirmacao: "Você valoriza a preservação das florestas e procura fazer escolhas de consumo mais conscientes.",
+                "Você se preocupa com a conservação das florestas e busca adotar hábitos de consumo mais responsáveis e sustentáveis."
             },
             {
-                texto: "Incentivar a agricultura sustentável e o consumo de produtos com certificação socioambiental transparente.",
-                afirmacao: "Você é uma pessoa focada em sustentabilidade econômica, buscando alinhar o desenvolvimento humano ao respeito pela natureza."
+                texto: "Participar de ações de plantio de árvores e projetos de recuperação de áreas degradadas.",
+                afirmacao: "Você é uma pessoa engajada e acredita que atitudes coletivas podem contribuir para transformar o meio ambiente.",
+                "Você participa ativamente de ações ambientais e acredita que a união das pessoas pode gerar mudanças positivas para o meio ambiente."
             }
         ]
     },
     {
-        enunciado: "A preservação das fontes de água doce é essencial para a saúde do planeta e dos seres vivos, mas o desperdício e a poluição ainda são desafios graves. Como você enxerga a relação da sociedade com a água?",
+        enunciado: "As mudanças climáticas estão relacionadas ao aumento da emissão de gases de efeito estufa. Qual atitude pode ajudar a reduzir essas emissões?",
         alternativas: [
             {
-                texto: "É urgente mudar hábitos individuais de consumo e exigir políticas públicas de saneamento básico e proteção de nascentes.",
-                afirmacao: "Você demonstra responsabilidade social e reconhece a importância de equilibrar ações pessoais com cobrança de direitos coletivos."
+                texto: "Utilizar mais transportes coletivos, bicicletas ou caminhar sempre que possível.",
+                afirmacao: "Você procura adotar hábitos sustentáveis e considera os impactos ambientais das suas escolhas diárias.",
+                "Você busca incorporar práticas sustentáveis à sua rotina e se preocupa com as consequências ambientais de suas escolhas."
             },
             {
-                texto: "A inovação e o reúso da água na indústria e na agricultura devem ser a prioridade máxima para evitar a escassez.",
-                afirmacao: "Você tem uma visão voltada para a eficiência e tecnologia como ferramentas centrais para garantir a segurança hídrica no futuro."
-            }
-        ]
-    }
-];o rigorosa, tecnologia de monitoramento via satélite e reflorestamento de áreas degradadas.",
-                afirmacao: "Você tem um perfil analítico e estratégico, valorizando soluções científicas e a aplicação firme de medidas de proteção."
-            },
-            {
-                texto: "Incentivar a agricultura sustentável e o consumo de produtos com certificação socioambiental transparente.",
-                afirmacao: "Você é uma pessoa focada em sustentabilidade econômica, buscando alinhar o desenvolvimento humano ao respeito pela natureza."
+                texto: "Economizar energia e priorizar fontes de energia renováveis quando disponíveis.",
+                afirmacao: "Você demonstra interesse por soluções sustentáveis e pela busca de alternativas para reduzir os impactos ambientais.",
+                "Você se interessa por práticas sustentáveis e procura alternativas que contribuam para diminuir os impactos causados ao meio ambiente."
             }
         ]
     },
     {
-        enunciado: "A preservação das fontes de água doce é essencial para a saúde do planeta e dos seres vivos, mas o desperdício e a poluição ainda são desafios graves. Como você enxerga a relação da sociedade com a água?",
+        enunciado: "A biodiversidade é fundamental para o equilíbrio dos ecossistemas. Como podemos ajudar a proteger os animais e as plantas?",
         alternativas: [
             {
-                texto: "É urgente mudar hábitos individuais de consumo e exigir políticas públicas de saneamento básico e proteção de nascentes.",
-                afirmacao: "Você demonstra responsabilidade social e reconhece a importância de equilibrar ações pessoais com cobrança de direitos coletivos."
+                texto: "Preservar áreas naturais e evitar ações que possam prejudicar os habitats dos animais.",
+                afirmacao: "Você se preocupa com a preservação da natureza e reconhece a importância do equilíbrio dos ecossistemas.",
+                "Você valoriza a conservação da natureza e entende como o equilíbrio dos ecossistemas é essencial para a vida no planeta."
             },
             {
-                texto: "A inovação e o reúso da água na indústria e na agricultura devem ser a prioridade máxima para evitar a escassez.",
-                afirmacao: "Você tem uma visão voltada para a eficiência e tecnologia como ferramentas centrais para garantir a segurança hídrica no futuro."
-            }
-        ]
-    }
-];
-    },
-    {
-        enunciado: "O desmatamento acelerado afeta diretamente o clima global, a qualidade do ar e a disponibilidade de água potável. Qual é a melhor abordagem para conter a perda das nossas florestas?",
-        alternativas: [
-            {
-                texto: "Investir em fiscalização rigorosa, tecnologia de monitoramento via satélite e reflorestamento de áreas degradadas.",
-                afirmacao: "Você tem um perfil analítico e estratégico, valorizando soluções científicas e a aplicação firme de medidas de proteção."
-            },
-            {
-                texto: "Incentivar a agricultura sustentável e o consumo de produtos com certificação socioambiental transparente.",
-                afirmacao: "Você é uma pessoa focada em sustentabilidade econômica, buscando alinhar o desenvolvimento humano ao respeito pela natureza."
-            }
-        ]
-    },
-    {
-        enunciado: "A preservação das fontes de água doce é essencial para a saúde do planeta e dos seres vivos, mas o desperdício e a poluição ainda são desafios graves. Como você enxerga a relação da sociedade com a água?",
-        alternativas: [
-            {
-                texto: "É urgente mudar hábitos individuais de consumo e exigir políticas públicas de saneamento básico e proteção de nascentes.",
-                afirmacao: "Você demonstra responsabilidade social e reconhece a importância de equilibrar ações pessoais com cobrança de direitos coletivos."
-            },
-            {
-                texto: "A inovação e o reúso da água na indústria e na agricultura devem ser a prioridade máxima para evitar a escassez.",
-                afirmacao: "Você tem uma visão voltada para a eficiência e tecnologia como ferramentas centrais para garantir a segurança hídrica no futuro."
+                texto: "Evitar comprar animais silvestres e denunciar situações de tráfico ou maus-tratos.",
+                afirmacao: "Você demonstra responsabilidade e respeito pela vida e pela proteção da fauna.",
+                "Você demonstra consciência e respeito pelos animais, contribuindo para a preservação e proteção da fauna."
             }
         ]
     }
