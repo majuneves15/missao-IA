@@ -1,0 +1,771 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+min-height: 100vh;
+
+font-family: Arial, Helvetica, sans-serif;
+
+background:
+    radial-gradient(
+        circle at 15% 15%,
+        rgba(61, 180, 91, 0.35),
+        transparent 28%
+    ),
+    radial-gradient(
+        circle at 85% 85%,
+        rgba(20, 120, 61, 0.35),
+        transparent 30%
+    ),
+    linear-gradient(
+        135deg,
+        #02140b,
+        #063d21,
+        #02180d
+    );
+
+color: white;
+
+display: flex;
+justify-content: center;
+
+padding: 35px 15px;
+
+overflow-x: hidden;
+
+}
+
+/* PARTÍCULAS */
+
+.particula {
+position: fixed;
+
+opacity: 0.12;
+
+font-size: 60px;
+
+pointer-events: none;
+
+animation: flutuar 5s ease-in-out infinite;
+
+}
+
+.p1 {
+top: 8%;
+left: 5%;
+}
+
+.p2 {
+top: 65%;
+right: 5%;
+
+animation-delay: 1s;
+
+}
+
+.p3 {
+bottom: 5%;
+left: 10%;
+
+animation-delay: 2s;
+
+}
+
+@keyframes flutuar {
+
+0%,
+100% {
+    transform: translateY(0) rotate(0deg);
+}
+
+50% {
+    transform: translateY(-20px) rotate(10deg);
+}
+
+}
+
+/* CONTAINER */
+
+.container {
+width: 100%;
+max-width: 850px;
+
+position: relative;
+z-index: 2;
+
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+text-align: center;
+
+margin-bottom: 30px;
+
+}
+
+.logo {
+width: 75px;
+height: 75px;
+
+margin: 0 auto 15px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-size: 38px;
+
+background:
+    linear-gradient(
+        135deg,
+        #27a34a,
+        #78df83
+    );
+
+border-radius: 24px;
+
+box-shadow:
+    0 15px 35px rgba(55, 190, 85, 0.3);
+
+}
+
+.tag {
+display: inline-block;
+
+padding: 7px 14px;
+
+background: rgba(126, 231, 135, 0.1);
+
+border: 1px solid rgba(126, 231, 135, 0.25);
+
+border-radius: 30px;
+
+color: #7ee787;
+
+font-size: 11px;
+
+font-weight: bold;
+
+letter-spacing: 2px;
+
+}
+
+.cabecalho h1 {
+font-size: 50px;
+
+margin: 12px 0;
+
+line-height: 1.1;
+
+}
+
+.cabecalho h1 span {
+color: #72df7c;
+}
+
+.cabecalho p {
+max-width: 650px;
+
+margin: auto;
+
+color: #b9d7c4;
+
+line-height: 1.7;
+
+font-size: 15px;
+
+}
+
+/* QUIZ */
+
+.quiz {
+background:
+rgba(255, 255, 255, 0.075);
+
+border:
+    1px solid rgba(255, 255, 255, 0.15);
+
+border-radius: 28px;
+
+padding: 32px;
+
+box-shadow:
+    0 30px 70px rgba(0, 0, 0, 0.4);
+
+backdrop-filter: blur(12px);
+
+}
+
+/* INFORMAÇÕES */
+
+.informacoes {
+display: flex;
+
+justify-content: space-between;
+
+margin-bottom: 10px;
+
+}
+
+.info {
+display: flex;
+
+flex-direction: column;
+
+gap: 4px;
+
+}
+
+.info span {
+color: #7ee787;
+
+font-size: 10px;
+
+font-weight: bold;
+
+letter-spacing: 1.5px;
+
+}
+
+.info strong {
+font-size: 16px;
+}
+
+.direita {
+text-align: right;
+}
+
+/* BARRA */
+
+.barra {
+width: 100%;
+
+height: 8px;
+
+background:
+    rgba(255, 255, 255, 0.08);
+
+border-radius: 20px;
+
+overflow: hidden;
+
+margin-bottom: 18px;
+
+}
+
+.progresso {
+width: 10%;
+
+height: 100%;
+
+background:
+    linear-gradient(
+        90deg,
+        #31a84f,
+        #7ee787
+    );
+
+border-radius: 20px;
+
+transition: width 0.5s ease;
+
+}
+
+/* VIDAS */
+
+.vidas {
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+color: #94bda1;
+
+font-size: 12px;
+
+margin-bottom: 30px;
+
+}
+
+.vidas div {
+font-size: 17px;
+
+letter-spacing: 3px;
+
+}
+
+/* PERGUNTA */
+
+.pergunta {
+text-align: center;
+
+margin-bottom: 28px;
+
+}
+
+.icone-pergunta {
+width: 65px;
+height: 65px;
+
+display: flex;
+
+align-items: center;
+justify-content: center;
+
+margin: 0 auto 13px;
+
+background:
+    linear-gradient(
+        135deg,
+        #12672f,
+        #2ba452
+    );
+
+border-radius: 20px;
+
+font-size: 31px;
+
+box-shadow:
+    0 10px 25px rgba(40, 160, 70, 0.25);
+
+}
+
+.categoria {
+color: #79db85;
+
+font-size: 10px;
+
+font-weight: bold;
+
+letter-spacing: 2px;
+
+}
+
+.pergunta h2 {
+margin-top: 10px;
+
+font-size: 25px;
+
+line-height: 1.5;
+
+}
+
+/* ALTERNATIVAS */
+
+.alternativas {
+display: grid;
+
+gap: 12px;
+
+}
+
+.alternativa {
+width: 100%;
+
+padding: 18px;
+
+background:
+    rgba(255, 255, 255, 0.055);
+
+color: white;
+
+border:
+    1px solid rgba(255, 255, 255, 0.13);
+
+border-radius: 15px;
+
+text-align: left;
+
+font-size: 15px;
+
+cursor: pointer;
+
+transition: 0.25s;
+
+}
+
+.alternativa:hover {
+background:
+rgba(126, 231, 135, 0.12);
+
+border-color: #72df7c;
+
+transform: translateY(-2px);
+
+}
+
+.alternativa:disabled {
+cursor: default;
+}
+
+.alternativa.correta {
+background:
+rgba(45, 170, 72, 0.3);
+
+border-color: #69dc77;
+
+color: #dffff0;
+
+}
+
+.alternativa.errada {
+background:
+rgba(220, 60, 60, 0.22);
+
+border-color: #ff6b6b;
+
+}
+
+/* FEEDBACK */
+
+.feedback {
+display: none;
+
+gap: 15px;
+
+margin-top: 20px;
+
+padding: 18px;
+
+border-radius: 16px;
+
+animation: aparecer 0.3s ease;
+
+}
+
+.feedback.correto {
+display: flex;
+
+background:
+    rgba(45, 170, 72, 0.15);
+
+border:
+    1px solid rgba(100, 220, 115, 0.45);
+
+}
+
+.feedback.errado {
+display: flex;
+
+background:
+    rgba(220, 60, 60, 0.12);
+
+border:
+    1px solid rgba(255, 100, 100, 0.4);
+
+}
+
+.feedback-icon {
+font-size: 27px;
+}
+
+.feedback h3 {
+margin-bottom: 5px;
+
+font-size: 16px;
+
+}
+
+.feedback p {
+color: #c4dccb;
+
+font-size: 13px;
+
+line-height: 1.6;
+
+}
+
+@keyframes aparecer {
+
+from {
+    opacity: 0;
+    transform: translateY(8px);
+}
+
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+}
+
+/* BOTÃO PRÓXIMO */
+
+.btn-proximo {
+display: none;
+
+width: 100%;
+
+margin-top: 20px;
+
+padding: 17px;
+
+border: none;
+
+border-radius: 15px;
+
+background:
+    linear-gradient(
+        135deg,
+        #32a851,
+        #70dd7a
+    );
+
+color: white;
+
+font-size: 15px;
+
+font-weight: bold;
+
+cursor: pointer;
+
+transition: 0.25s;
+
+}
+
+.btn-proximo.mostrar {
+display: block;
+}
+
+.btn-proximo:hover {
+transform: translateY(-2px);
+
+box-shadow:
+    0 12px 30px rgba(70, 200, 90, 0.3);
+
+}
+
+/* RESULTADO */
+
+.resultado {
+display: none;
+
+text-align: center;
+
+animation: aparecer 0.5s ease;
+
+}
+
+.trofeu {
+width: 100px;
+height: 100px;
+
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+margin: 0 auto 20px;
+
+border-radius: 50%;
+
+background:
+    rgba(126, 231, 135, 0.1);
+
+border:
+    1px solid rgba(126, 231, 135, 0.25);
+
+font-size: 50px;
+
+}
+
+.resultado h2 {
+margin: 15px 0 8px;
+
+font-size: 30px;
+
+}
+
+.pontuacao-final {
+color: #7ee787;
+
+font-size: 36px;
+
+font-weight: bold;
+
+margin: 15px 0 25px;
+
+}
+
+/* ESTATÍSTICAS */
+
+.estatisticas {
+display: grid;
+
+grid-template-columns:
+    repeat(3, 1fr);
+
+gap: 12px;
+
+margin-bottom: 25px;
+
+}
+
+.estatisticas div {
+padding: 17px 10px;
+
+background:
+    rgba(255, 255, 255, 0.055);
+
+border:
+    1px solid rgba(255, 255, 255, 0.1);
+
+border-radius: 14px;
+
+}
+
+.estatisticas strong {
+display: block;
+
+color: #7ee787;
+
+font-size: 23px;
+
+margin-bottom: 5px;
+
+}
+
+.estatisticas span {
+color: #9bb9a5;
+
+font-size: 11px;
+
+}
+
+.mensagem {
+color: #bdd7c5;
+
+font-size: 14px;
+
+line-height: 1.7;
+
+}
+
+/* REINICIAR */
+
+.btn-reiniciar {
+margin-top: 25px;
+
+padding: 15px 25px;
+
+background:
+    rgba(126, 231, 135, 0.1);
+
+color: #91e99b;
+
+border:
+    1px solid #55c866;
+
+border-radius: 13px;
+
+font-size: 14px;
+
+font-weight: bold;
+
+cursor: pointer;
+
+transition: 0.25s;
+
+}
+
+.btn-reiniciar:hover {
+background:
+rgba(126, 231, 135, 0.2);
+
+transform: translateY(-2px);
+
+}
+
+/* FOOTER */
+
+footer {
+text-align: center;
+
+margin-top: 25px;
+
+color: #82a990;
+
+font-size: 13px;
+
+}
+
+footer small {
+display: block;
+
+margin-top: 5px;
+
+color: #557c64;
+
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+body {
+    padding: 20px 12px;
+}
+
+
+.cabecalho h1 {
+    font-size: 35px;
+}
+
+
+.cabecalho p {
+    font-size: 13px;
+}
+
+
+.quiz {
+    padding: 22px 17px;
+
+    border-radius: 21px;
+}
+
+
+.pergunta h2 {
+    font-size: 19px;
+}
+
+
+.alternativa {
+    padding: 16px;
+
+    font-size: 14px;
+}
+
+
+.estatisticas {
+    grid-template-columns:
+        1fr 1fr 1fr;
+
+    gap: 6px;
+}
+
+
+.estatisticas div {
+    padding: 13px 5px;
+}
+
+
+.estatisticas strong {
+    font-size: 18px;
+}
+
+
+.estatisticas span {
+    font-size: 9px;
+}
+
+
+.particula {
+    display: none;
+}
+
+}
