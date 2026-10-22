@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthQuiz - Saúde e Bem-Estar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="particula p1"></div>
+    <div class="particula p2"></div>
+    <div class="particula p3"></div>
+
+    <main class="container">
+
+        <header class="cabecalho">
+
+            <div class="logo">
+                
+            </div>
+
+            <span class="tag">
+                HEALTHQUIZ
+            </span>
+
+            <h1>
+                Saúde e
+                <span>Bem-Estar</span>
+            </h1>
+
+            <p>
+                Teste seus conhecimentos e descubra como adotar
+                hábitos saudáveis para uma vida mais equilibrada.
+            </p>
+
+        </header>
+
+        <section class="quiz" id="quiz">
+
+            <div class="informacoes">
+
+                <div class="info">
+                    <span>PERGUNTA</span>
+                    <strong id="contador">1 / 6</strong>
+                </div>
+
+                <div class="info direita">
+                    <span>PONTOS</span>
+                    <strong id="pontos">0</strong>
+                </div>
+
+            </div>
+
+            <div class="barra">
+                <div class="progresso" id="progresso"></div>
+            </div>
+
+            <div class="vidas">
+
+                <span>Indicadores de Saúde</span>
+
+                <div>
+                    <span id="vida1"></span>
+                    <span id="vida2"></span>
+                    <span id="vida3"></span>
+                </div>
+
+            </div>
+
+            <div class="pergunta">
+
+                <div class="icone-pergunta">
+                    
+                </div>
+
+                <span class="categoria" id="categoria">
+                    PREVENÇÃO & SAÚDE
+                </span>
+
+                <h2 id="pergunta">
+                    Carregando pergunta...
+                </h2>
+
+            </div>
+
+            <div class="alternativas" id="alternativas"></div>
+
+            <div class="feedback" id="feedback">
+
+                <div class="feedback-icon" id="feedbackIcon"></div>
+
+                <div>
+                    <h3 id="feedbackTitulo"></h3>
+                    <p id="feedbackTexto"></p>
+                </div>
+
+            </div>
+
+            <button type="button" class="btn-proximo" id="btnProximo">
+                Próxima pergunta
+                <span>→</span>
+            </button>
+
+            <div class="resultado" id="resultado">
+
+                <div class="trofeu">
+                    
+                </div>
+
+                <span class="tag">
+                    RESULTADO FINAL
+                </span>
+
+                <h2>
+                    Quiz concluído!
+                </h2>
+
+                <div class="pontuacao-final" id="pontuacaoFinal">
+                    0 / 6
+                </div>
+
+                <div class="estatisticas">
+
+                    <div>
+                        <strong id="acertos">0</strong>
+                        <span>Acertos</span>
+                    </div>
+
+                    <div>
+                        <strong id="erros">0</strong>
+                        <span>Erros</span>
+                    </div>
+
+                    <div>
+                        <strong id="porcentagem">0%</strong>
+                        <span>Aproveitamento</span>
+                    </div>
+
+                </div>
+
+                <p class="mensagem" id="mensagem"></p>
+
+                <button type="button" class="btn-reiniciar" id="btnReiniciar">
+                    Jogar novamente
+                </button>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <p>
+                Cada hábito conta.
+            </p>
+
+            <small>
+                Cuide do seu corpo. Cuide do seu bem-estar.
+            </small>
+
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
