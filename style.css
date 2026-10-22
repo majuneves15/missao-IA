@@ -675,7 +675,7 @@ transition: 0.25s;
 
 .btn-reiniciar:hover {
 background:
-rgba(126, 231, 135, 0.2);
+rgba(95, 207, 192, 0.2);
 
 transform: translateY(-2px);
 
@@ -699,7 +699,7 @@ display: block;
 
 margin-top: 5px;
 
-color: #557c64;
+color: #8be6cf;
 
 }
 
