@@ -1,101 +1,121 @@
  export const perguntas = [
     {
-        enunciado: "A caça de animais silvestres sem autorização dos órgãos ambientais pode ser considerada crime ambiental?"
+        enunciado: "Manter uma rotina regular de atividades físicas traz benefícios para a saúde física e mental?",
         alternativas: [
             {
-                texto: "Denunciar a situação às autoridades responsáveis e evitar participar da atividade.",
-                afirmacao: ["Você demonstra responsabilidade ambiental e entende que denunciar crimes contra a fauna é uma forma importante de proteger os animais.",
-                "Você compartilha do compromisso com o meio ambiente e reconhece que relatar infrações contra os animais silvestres é fundamental para a sua proteção."
-        ]},
-            {
-                texto: "Ignorar a situação, pois acredita que a preservação dos animais é responsabilidade apenas das autoridades.",
-                afirmacao: ["Você prefere não se envolver, mas a participação da sociedade é importante para combater a caça ilegal e proteger a biodiversidade.",
-                "Ainda que você opte por não intervir, o engajamento de todos é fundamental para combater a caça predatória e preservar a biodiversidade."
-        ]}
-        ]
-    },
-
-    {
-        enunciado:"A pesca ilegal pode diminuir as populações de peixes e prejudicar o equilíbrio dos ecossistemas aquáticos?
-        alternativas: [
-            {
-                texto: "Respeitar os períodos de reprodução, os tamanhos permitidos e os limites de captura.",
-                afirmacao: ["Você demonstra consciência ambiental e entende que respeitar as regras de pesca ajuda a preservar as espécies para as próximas gerações.",
-                "Sua atitude reflete cuidado com o meio ambiente e o entendimento de que cumprir as normas de pesca é vital para garantir a sobrevivência das espécies no futuro."
+                texto: "Praticar exercícios regularmente e buscar manter consistência na rotina semanal.",
+                afirmacao: [
+                    "Você demonstra cuidado com o bem-estar e entende que a prática constante de atividades físicas fortalece o corpo e melhora a saúde mental.",
+                    "Você reconhece a importância do movimento para o corpo, sabendo que a consistência nos exercícios previne doenças e melhora a qualidade de vida."
                 ]
-                {
-                texto: "Pescar o máximo possível sempre que houver oportunidade, independentemente das regras.",
-                afirmacao: ["Você valoriza a atividade de pesca, mas é importante compreender que a captura excessiva pode prejudicar os ecossistemas e diminuir as populações de peixes.",
-                "Embora você aprecie a pesca, é preciso ter em mente que o excesso na captura ameaça os ecossistemas aquáticos e reduz o volume de peixes."
-        ]
-    }
-               }
-        ]
-    },
-    
-     {
-        enunciado: "Respeitar o período de reprodução dos peixes é uma forma de ajudar na preservação das espécies?"
-        alternativas: [
-            {
-                texto: "Porque podem diminuir populações de animais, ameaçar espécies e desequilibrar os ecossistemas.",
-                afirmacao: ["Você compreende que a retirada excessiva de animais da natureza pode afetar toda a cadeia alimentar e a biodiversidade.",
-                "Você entende que a captura exagerada de espécies na fauna pode desequilibrar a cadeia alimentar e prejudicar a biodiversidade."
-            
-        ]},
-        {
-                texto: "Porque são atividades que podem acontecer sem autorização ou fora das regras estabelecidas.",
-                afirmacao: ["Você reconhece a importância das leis, mas também é importante entender os impactos ambientais causados pela exploração ilegal da fauna." ,
-                "Embora você valorize as normas vigentes, é fundamental compreender os danos ecológicos provocados pela exploração ilícita da vida silvestre."
-        ]}
-        ]
-    },
-
-    {
-        enunciado: "A captura e o comércio ilegal de animais silvestres podem contribuir para a redução de suas populações?"
-        alternativas: [
-            {
-                texto: "Não comprar o animal e comunicar o caso aos órgãos responsáveis.",
-                afirmacao: ["Você demonstra responsabilidade e entende que não incentivar o comércio ilegal ajuda a combater o tráfico de animais silvestres.",
-                "Sua atitude é consciente e mostra que deixar de financiar o mercado clandestino é essencial para enfraquecer o tráfico da fauna silvestre."
-                
-        ]},
-    ]{
-                texto: "Comprar o animal para tentar salvá-lo da situação em que se encontra.",
-                afirmacao: ["Sua intenção é ajudar o animal, mas a compra pode incentivar o comércio ilegal. O mais adequado é procurar as autoridades ou órgãos especializados.",
-                "Embora seu desejo seja proteger o animal, comprá-lo acaba alimentando o mercado clandestino. A melhor atitude é acionar os órgãos competentes ou entidades especializadas."}
-        ]
-    },
-
-    {
-        enunciado: "A preservação dos animais silvestres também contribui para o equilíbrio dos ecossistemas?"
-        alternativas: [
-            {
-                texto: "A fiscalização ajuda a identificar infrações, aplicar as leis e proteger áreas e espécies ameaçadas.",
-                afirmacao: ["Você reconhece que a fiscalização é essencial para garantir o cumprimento das leis ambientais e proteger a fauna.",
-                "Você entende que o trabalho de fiscalização é indispensável para fazer valer a legislação ambiental e assegurar a preservação dos animais."
             },
-        ]{
-                texto: "A fiscalização não é tão importante, pois as pessoas deveriam decidir livremente como utilizar os recursos naturais.",
-                afirmacao: ["Você valoriza a liberdade de utilização dos recursos naturais, mas é necessário respeitar limites para evitar a exploração excessiva e a destruição dos ecossistemas.",
-                "Embora você defenda o livre uso dos recursos da natureza, estabelecer limites é indispensável para conter o esgotamento ambiental e a degradação dos ecossistemas."
-            
-        ]}
-        
+            {
+                texto: "Evitar a prática de exercícios, acreditando que o descanso absoluto é a única forma de cuidar da saúde.",
+                afirmacao: [
+                    "Você valoriza os momentos de descanso, mas é importante lembrar que a inatividade prolongada pode trazer riscos para a saúde cardiovascular e muscular.",
+                    "Embora o repouso seja fundamental, o sedentarismo pode comprometer seu condicionamento físico e o bem-estar ao longo do tempo."
+                ]
+            }
+        ]
     },
 
     {
-        enunciado: "Dnunciar atividades de caça e pesca ilegais pode ajudar no combate aos crimes ambientais?"
+        enunciado: "Consumir alimentos ultraprocessados com frequência pode impactar negativamente o organismo?",
         alternativas: [
             {
-                texto: "Respeitando as leis ambientais, não comprando produtos de origem ilegal e denunciando atividades suspeitas.",
-                afirmacao: ["Você demonstra consciência ambiental e entende que as atitudes da população são fundamentais para proteger a natureza.",
-                "Sua atitude reflete cuidado com o meio ambiente e o entendimento de que a ação coletiva das pessoas é indispensável para preservar a natureza."
-        ]},
+                texto: "Dar preferência a alimentos naturais ou minimamente processados nas refeições diárias.",
+                afirmacao: [
+                    "Você demonstra consciência nutricional e entende que uma alimentação baseada em comida de verdade fornece os nutrientes essenciais para o corpo.",
+                    "Sua escolha reflete cuidado com a saúde, reconhecendo que priorizar refeições equilibradas ajuda na prevenção de doenças crônicas."
+                ]
+            },
             {
-                texto: "Deixando o problema apenas para os órgãos de fiscalização e para os governos.",
-                afirmacao: ["Você acredita que as autoridades possuem um papel importante, mas a participação da sociedade também é fundamental para combater crimes ambientais.",
-                "Embora você reconheça a relevância do poder público, sabe que o combate aos crimes ambientais só é completo com o engajamento direto da população."
-        ]}
+                texto: "Consumir alimentos ultraprocessados sempre que houver oportunidade, ignorando os rótulos nutricionais.",
+                afirmacao: [
+                    "Você prioriza a praticidade das refeições, mas é importante compreender que o excesso de açúcares, sódio e gorduras traz prejuízos à saúde no longo prazo.",
+                    "Embora a facilidade desses alimentos seja atrativa, o consumo frequente pode aumentar os riscos de problemas como diabetes e hipertensão."
+                ]
+            }
+        ]
+    },
+
+    {
+        enunciado: "Dormir a quantidade adequada de horas diariamente ajuda no fortalecimento do sistema imunológico?",
+        alternativas: [
+            {
+                texto: "Estabelecer horários regulares para dormir e criar um ambiente propício para um descanso de qualidade.",
+                afirmacao: [
+                    "Você compreende que o sono reparador é essencial para a recuperação do organismo, manutenção da memória e fortalecimento das defesas do corpo.",
+                    "Sua atitude mostra que você valoriza o descanso adequado como um pilar fundamental para o equilíbrio da saúde física e mental."
+                ]
+            },
+            {
+                texto: "Reduzir o tempo de sono frequentemente para realizar outras atividades, compensando apenas aos fins de semana.",
+                afirmacao: [
+                    "Você busca otimizar seu tempo diário, mas vale notar que a privação contínua de sono pode afetar o rendimento, a concentração e a imunidade.",
+                    "Embora você tente compensar a rotina agitada depois, noites mal dormidas geram um desgaste que o corpo sente na disposição e no bem-estar."
+                ]
+            }
+        ]
+    },
+
+    {
+        enunciado: "Ingerir a quantidade recomendada de água ao longo do dia é indispensável para o bom funcionamento do corpo?",
+        alternativas: [
+            {
+                texto: "Manter uma garrafa de água por perto e hidratar-se regularmente, mesmo sem sentir muita sede.",
+                afirmacao: [
+                    "Você demonstra hábito saudável e entende que a hidratação constante auxilia nas funções renais, digestivas e no controle da temperatura corporal.",
+                    "Sua escolha é consciente e reflete o entendimento de que a água é fundamental para manter todas as células do corpo funcionando corretamente."
+                ]
+            },
+            {
+                texto: "Substituir a água por refrigerantes ou sucos industrializados na maior parte do dia.",
+                afirmacao: [
+                    "Você prefere bebidas saborizadas, mas é importante considerar que o excesso de açúcar dessas bebidas não substitui a hidratação pura da água.",
+                    "Embora essas bebidas tragam sabor, trocá-las pela água pura previne o consumo excessivo de calorias e preserva a saúde dos rins."
+                ]
+            }
+        ]
+    },
+
+    {
+        enunciado: "A realização de exames preventivos e consultas médicas periódicas contribui para a manutenção da saúde?",
+        alternativas: [
+            {
+                texto: "Fazer acompanhamento de saúde regular para identificar alterações precocemente e manter a prevenção em dia.",
+                afirmacao: [
+                    "Você reconhece a importância da medicina preventiva como a melhor ferramenta para identificar e tratar condições antes que se compliquem.",
+                    "Sua atitude proativa mostra responsabilidade com o próprio corpo e entendimento de que prevenir é sempre mais seguro do que remediar."
+                ]
+            },
+            {
+                texto: "Procurar atendimento profissional apenas quando os sintomas ou dores se tornarem muito intensos.",
+                afirmacao: [
+                    "Você prefere agir apenas diante da necessidade imediata, mas vale ponderar que diagnósticos tardios podem dificultar os tratamentos.",
+                    "Embora você busque ajuda ao sentir desconfortos fortes, consultas preventivas regulares reduzem riscos e evitam complicações de saúde."
+                ]
+            }
+        ]
+    },
+
+    {
+        enunciado: "Adoção de hábitos de higiene, como lavar as mãos com frequência, ajuda na prevenção de infecções?",
+        alternativas: [
+            {
+                texto: "Higienizar as mãos adequadamente antes das refeições e ao chegar da rua.",
+                afirmacao: [
+                    "Você demonstra responsabilidade com a saúde individual e coletiva, sabendo que medidas simples evitam a proliferação de vírus e bactérias.",
+                    "Sua prática diária reflete cuidado contínuo, compreendendo que a higienização das mãos é uma das barreiras mais eficientes contra doenças."
+                ]
+            },
+            {
+                texto: "Ignorar a higienização das mãos por achar que o contato diário com microrganismos não traz riscos reais.",
+                afirmacao: [
+                    "Você confia na resistência natural do organismo, contudo, negligenciar a higiene básica aumenta significativamente as chances de contaminações evitáveis.",
+                    "Embora o sistema imune atue constantemente, hábitos simples de limpeza reduzem bastante a exposição do seu corpo a germes patogênicos."
+                ]
+            }
         ]
     }
 ];
