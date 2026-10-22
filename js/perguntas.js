@@ -1,1 +1,101 @@
- 
+ export const perguntas = [
+    {
+        enunciado: "A caça de animais silvestres sem autorização dos órgãos ambientais pode ser considerada crime ambiental?"
+        alternativas: [
+            {
+                texto: "Denunciar a situação às autoridades responsáveis e evitar participar da atividade.",
+                afirmacao: ["Você demonstra responsabilidade ambiental e entende que denunciar crimes contra a fauna é uma forma importante de proteger os animais.",
+                "Você compartilha do compromisso com o meio ambiente e reconhece que relatar infrações contra os animais silvestres é fundamental para a sua proteção."
+        ]},
+            {
+                texto: "Ignorar a situação, pois acredita que a preservação dos animais é responsabilidade apenas das autoridades.",
+                afirmacao: ["Você prefere não se envolver, mas a participação da sociedade é importante para combater a caça ilegal e proteger a biodiversidade.",
+                "Ainda que você opte por não intervir, o engajamento de todos é fundamental para combater a caça predatória e preservar a biodiversidade."
+        ]}
+        ]
+    },
+
+    {
+        enunciado:"A pesca ilegal pode diminuir as populações de peixes e prejudicar o equilíbrio dos ecossistemas aquáticos?
+        alternativas: [
+            {
+                texto: "Respeitar os períodos de reprodução, os tamanhos permitidos e os limites de captura.",
+                afirmacao: ["Você demonstra consciência ambiental e entende que respeitar as regras de pesca ajuda a preservar as espécies para as próximas gerações.",
+                "Sua atitude reflete cuidado com o meio ambiente e o entendimento de que cumprir as normas de pesca é vital para garantir a sobrevivência das espécies no futuro."
+                ]
+                {
+                texto: "Pescar o máximo possível sempre que houver oportunidade, independentemente das regras.",
+                afirmacao: ["Você valoriza a atividade de pesca, mas é importante compreender que a captura excessiva pode prejudicar os ecossistemas e diminuir as populações de peixes.",
+                "Embora você aprecie a pesca, é preciso ter em mente que o excesso na captura ameaça os ecossistemas aquáticos e reduz o volume de peixes."
+        ]
+    }
+               }
+        ]
+    },
+    
+     {
+        enunciado: "Respeitar o período de reprodução dos peixes é uma forma de ajudar na preservação das espécies?"
+        alternativas: [
+            {
+                texto: "Porque podem diminuir populações de animais, ameaçar espécies e desequilibrar os ecossistemas.",
+                afirmacao: ["Você compreende que a retirada excessiva de animais da natureza pode afetar toda a cadeia alimentar e a biodiversidade.",
+                "Você entende que a captura exagerada de espécies na fauna pode desequilibrar a cadeia alimentar e prejudicar a biodiversidade."
+            
+        ]},
+        {
+                texto: "Porque são atividades que podem acontecer sem autorização ou fora das regras estabelecidas.",
+                afirmacao: ["Você reconhece a importância das leis, mas também é importante entender os impactos ambientais causados pela exploração ilegal da fauna." ,
+                "Embora você valorize as normas vigentes, é fundamental compreender os danos ecológicos provocados pela exploração ilícita da vida silvestre."
+        ]}
+        ]
+    },
+
+    {
+        enunciado: "A captura e o comércio ilegal de animais silvestres podem contribuir para a redução de suas populações?"
+        alternativas: [
+            {
+                texto: "Não comprar o animal e comunicar o caso aos órgãos responsáveis.",
+                afirmacao: ["Você demonstra responsabilidade e entende que não incentivar o comércio ilegal ajuda a combater o tráfico de animais silvestres.",
+                "Sua atitude é consciente e mostra que deixar de financiar o mercado clandestino é essencial para enfraquecer o tráfico da fauna silvestre."
+                
+        ]},
+    ]{
+                texto: "Comprar o animal para tentar salvá-lo da situação em que se encontra.",
+                afirmacao: ["Sua intenção é ajudar o animal, mas a compra pode incentivar o comércio ilegal. O mais adequado é procurar as autoridades ou órgãos especializados.",
+                "Embora seu desejo seja proteger o animal, comprá-lo acaba alimentando o mercado clandestino. A melhor atitude é acionar os órgãos competentes ou entidades especializadas."}
+        ]
+    },
+
+    {
+        enunciado: "A preservação dos animais silvestres também contribui para o equilíbrio dos ecossistemas?"
+        alternativas: [
+            {
+                texto: "A fiscalização ajuda a identificar infrações, aplicar as leis e proteger áreas e espécies ameaçadas.",
+                afirmacao: ["Você reconhece que a fiscalização é essencial para garantir o cumprimento das leis ambientais e proteger a fauna.",
+                "Você entende que o trabalho de fiscalização é indispensável para fazer valer a legislação ambiental e assegurar a preservação dos animais."
+            },
+        ]{
+                texto: "A fiscalização não é tão importante, pois as pessoas deveriam decidir livremente como utilizar os recursos naturais.",
+                afirmacao: ["Você valoriza a liberdade de utilização dos recursos naturais, mas é necessário respeitar limites para evitar a exploração excessiva e a destruição dos ecossistemas.",
+                "Embora você defenda o livre uso dos recursos da natureza, estabelecer limites é indispensável para conter o esgotamento ambiental e a degradação dos ecossistemas."
+            
+        ]}
+        
+    },
+
+    {
+        enunciado: "Dnunciar atividades de caça e pesca ilegais pode ajudar no combate aos crimes ambientais?"
+        alternativas: [
+            {
+                texto: "Respeitando as leis ambientais, não comprando produtos de origem ilegal e denunciando atividades suspeitas.",
+                afirmacao: ["Você demonstra consciência ambiental e entende que as atitudes da população são fundamentais para proteger a natureza.",
+                "Sua atitude reflete cuidado com o meio ambiente e o entendimento de que a ação coletiva das pessoas é indispensável para preservar a natureza."
+        ]},
+            {
+                texto: "Deixando o problema apenas para os órgãos de fiscalização e para os governos.",
+                afirmacao: ["Você acredita que as autoridades possuem um papel importante, mas a participação da sociedade também é fundamental para combater crimes ambientais.",
+                "Embora você reconheça a relevância do poder público, sabe que o combate aos crimes ambientais só é completo com o engajamento direto da população."
+        ]}
+        ]
+    }
+];
